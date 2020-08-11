@@ -76,7 +76,7 @@
                     <input required type="email" class="form-control" id="exampleInputEmail1"
                       aria-describedby="emailHelp" placeholder="Enter email">
                   </div>
-                  <!-- .xs-input-group END -->
+                  <!-- .xs-input-group END 
                   <div class="xs-input-group">
                     <label for="xs-donate-charity">List of Evaluated Charities
                     <span class="color-light-red">**</span></label>
@@ -98,7 +98,7 @@
                       Amarok socity
                       </option>
                     </select>
-                  </div>
+                  </div>-->
                   <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">I Agree</label>
