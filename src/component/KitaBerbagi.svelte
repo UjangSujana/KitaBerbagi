@@ -22,9 +22,7 @@
      return Math.round(Math.abs(delta / oneDay));
    }
 
-   function handleButton(){
-     isModalOpen = true ;
-   }
+   
 
    function handleCloseModal(){
      isModalOpen = false;
@@ -80,7 +78,7 @@
                 <div class="modal-body">
                   <form>
                     <div class="form-group">
-                      <label for="exampleInputAmount">Amount donation</label>
+                      <label for="exampleInputAmount">Jumlah Donasi</label>
                       <input required type="number" class="form-control" id="exampleInputAmount"
                         aria-describedby="amountHelp" placeholder="Enter amount">
                     </div>
@@ -151,13 +149,12 @@
 
             <span class="xs-separetor"></span>
 
-            <button
-              href="#" 
-              on:click= {handleButton}
+            <a
+              href="/donation/{charity.id}" 
               data-toggle="modal" data-target="#exampleModal"
               class="btn btn-primary btn-block">
               Donate This Cause
-            </button>
+          </a>
           </div><!-- .xs-item-content END -->
         </div><!-- .xs-popular-item END -->
       </div>
