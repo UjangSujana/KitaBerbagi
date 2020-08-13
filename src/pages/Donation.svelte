@@ -9,7 +9,7 @@
   
 
   async function getCharity(id){
-    const res = await fetch('https://charity-api-bwa.herokuapp.com/charities/'${id});
+    const res = await fetch('https://charity-api-bwa.herokuapp.com/charities/'${id})
     return res,json();
   }
 
