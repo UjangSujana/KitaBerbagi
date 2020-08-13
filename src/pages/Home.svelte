@@ -7,7 +7,7 @@
     import Footer from '../component/Footer.svelte';
 
     
-    let title ="Kita Berbagi";
+    let title ="charity";
     let charities = [];
 
     onMount(async function() {
